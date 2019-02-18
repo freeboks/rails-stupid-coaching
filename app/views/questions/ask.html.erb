@@ -1,0 +1,8 @@
+<h1>Questions#ask</h1>
+<!-- action directs you to localhost:3000/answer -->
+<form action="/answer">
+  <input type="text" name="question">
+  <!-- taking gets.chomp when you do input. name is params[:question] -->
+  <!-- it makes localhost:3000/answer?question= "whatever input" -->
+  <input type="submit" value="Ask!">
+</form>
